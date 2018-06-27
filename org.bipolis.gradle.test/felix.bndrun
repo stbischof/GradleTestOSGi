@@ -1,0 +1,8 @@
+-runfw: org.apache.felix.framework
+-runee: JavaSE-1.8
+
+-runrequires: bnd.identity;id='org.bipolis.gradle.test'
+
+-runbundles: \
+    org.bipolis.gradle.test;version=snapshot,\
+    org.apache.servicemix.bundles.junit;version='[4.12.0,4.12.1)'

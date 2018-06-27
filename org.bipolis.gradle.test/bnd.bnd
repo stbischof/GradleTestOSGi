@@ -1,0 +1,13 @@
+Test-Cases: ${classes;NAMED;*Test}
+
+-buildpath: \
+    org.apache.servicemix.bundles.junit,\
+    osgi.annotation; version=6.0.1,\
+    osgi.core; version=6.0,\
+    osgi.cmpn; version=6.0
+
+javac.source: 1.8
+javac.target: 1.8
+
+Bundle-Version: 0.0.0.${tstamp}
+Private-Package: org.bipolis.gradle.test
